@@ -2,3 +2,4 @@ out
 /.idea/
 /target/
 /mc-plugin-template.iml
+/server/

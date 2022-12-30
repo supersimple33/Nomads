@@ -1,4 +1,4 @@
-package de.joeakeem.spigotmc.plugin.template.commands;
+package en.supersimple33.spigotmc.plugin.nomads.commands;
 
 import org.bukkit.Material;
 import org.bukkit.command.Command;

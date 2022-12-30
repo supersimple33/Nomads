@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"taskName": "echotest",
+			"command": "bash",
+			"args": [
+				"runner.sh"
+			],
+			"isShellCommand": true,
+			"problemMatcher": [],
+			"label": "echotest",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}

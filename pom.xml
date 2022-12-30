@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>de.joeakeem.spigotmc.plugin</groupId>
-    <artifactId>mc-plugin-template</artifactId>
+    <groupId>en.supersimple33.spigotmc.plugin</groupId>
+    <artifactId>Nomads</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
