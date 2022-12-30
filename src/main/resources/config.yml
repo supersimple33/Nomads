@@ -1,0 +1,7 @@
+### The Config File for the Plugin
+### This file is auto-generated on first start
+### If you want to change something, do it in the config.yml in the plugin folder
+
+disallowed-worlds:
+- world_nether
+- world_the_end
