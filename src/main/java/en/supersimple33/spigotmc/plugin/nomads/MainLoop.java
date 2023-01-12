@@ -4,6 +4,7 @@ import java.util.logging.Logger;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Chunk;
+import org.bukkit.Difficulty;
 import org.bukkit.Location;
 import org.bukkit.World;
 import org.bukkit.scheduler.BukkitRunnable;
@@ -26,13 +27,14 @@ public class MainLoop extends BukkitRunnable { // Should pass the logger/plugin?
 			Location loc = player.getLocation();
 			World world = loc.getWorld();
 			// Guard
-			if (disallowedWorlds.contains(world.getName())) {
+			if (disallowedWorlds.contains(world.getName()) || world.getDifficulty() == Difficulty.PEACEFUL) { // Should we tick on peaceful worlds? I guess not.
 				continue;
 			}
 
 			Chunk chunk = loc.getChunk();
 			//print chunk coords
 			Bukkit.broadcastMessage("Player " + player.getDisplayName() + " is in chunk " + chunk.getX() + ", " + chunk.getZ());
+
 		}
     }
 }
