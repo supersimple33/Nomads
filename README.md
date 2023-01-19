@@ -7,7 +7,7 @@ Minecraft plugins are a great way to learn Java programming.
 
 In order to try this out you need the following software to be installed on your machine:
 
-* Java version 8 or above (e.g. [OpenJDK](https://openjdk.java.net/install/))
+* Java version 16 or above (e.g. [OpenJDK](https://openjdk.java.net/install/))
 * [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * [docker](https://docs.docker.com/v17.09/engine/installation/)
 

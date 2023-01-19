@@ -16,7 +16,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class NomadsPlugin extends JavaPlugin {
 
-    private final String dataFile = getDataFolder() + File.separator + "data";
+    private final String dataFile = getDataFolder() + File.separator + "dataV0.dat"; //dont change data version
 
     List<String> disallowedWorlds;
     HashMap<LocalDifficulty, Integer> localDifficulties;
@@ -49,6 +49,7 @@ public class NomadsPlugin extends JavaPlugin {
     public void onDisable() {
         super.onDisable();
         getLogger().info("Saving Local Difficulties");
+        getLogger().info(localDifficulties.toString());
         this.saveData();
     }
 

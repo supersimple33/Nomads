@@ -10,8 +10,6 @@ public record LocalDifficulty(int x, int z, UUID playerUUID) implements Serializ
 	public LocalDifficulty {
 		// loaded++;
 	}
-
-	
 }
 
 // public class LocalDifficulty {
